@@ -1,1 +1,2 @@
-API---express-typescript-mongo-typegoose
+# GraphQL-API
+Node, GraphQL, TypeScript, MongoDB Setup

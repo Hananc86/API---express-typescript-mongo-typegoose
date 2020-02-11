@@ -1,0 +1,39 @@
+{
+    "compilerOptions": {
+        "allowSyntheticDefaultImports": true,
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
+        "target": "es6",
+        "module": "commonjs",
+        // "outDir": "dist",
+        "rootDir": "src",
+        // "sourceMap": true,
+        // "experimentalDecorators": true,
+        "skipLibCheck": true,
+        // "emitDecoratorMetadata": true,
+        "baseUrl": ".",
+        "paths": {
+          "@src/*": ["src/*"]
+        },
+        "lib": [
+            "dom",
+            "es5",
+            "es2015.promise",
+            "es2017",
+            "es6",
+            "esnext",
+            "esnext.asynciterable"
+        ],
+        "outDir": "./dist",
+        "sourceMap": true,
+    },
+    "include": [
+        "src/**/*.ts"
+      ],
+      "files": [
+        "../node_modules/@types/node/index.d.ts"
+      ],
+     "exclude": [
+         "node_modules"
+     ]
+}

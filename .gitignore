@@ -1,0 +1,9 @@
+dist
+node_modules
+npm-debug.log
+.idea
+.env
+types.d.ts
+ts-files.txt
+yarn-error.log
+src/jest/globalConfig.json

@@ -1,0 +1,52 @@
+{
+  "name": "new-api",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "tsc",
+    "compile:watch": "tsc --watch",
+    "nodemon": "nodemon --inspect=9876 dist/index.js",
+    "node": "node dist/index.js",
+    "dev": "run-p compile:watch nodemon",
+    "start": "run-s compile node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "apollo-server-express": "^2.10.0",
+    "aws-sdk": "^2.335.0",
+    "axios": "^0.19.2",
+    "cors": "^2.8.5",
+    "dataloader": "^1.4.0",
+    "express": "^4.17.1",
+    "graphql": "^14.6.0",
+    "graphql-custom-datetype": "^0.5.0",
+    "graphql-fields": "^1.1.0",
+    "graphql-relay": "^0.5.5",
+    "graphql-type-json": "^0.3.1",
+    "jszip": "^3.2.2",
+    "keycloak-connect": "^6.0.1",
+    "lodash": "^4.17.15",
+    "lodash.mapvalues": "^4.6.0",
+    "mongodb": "^3.5.2",
+    "mongoose": "^5.8.11",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.2",
+    "request": "^2.88.0",
+    "save": "^2.4.0",
+    "typegoose": "^5.9.1",
+    "typescript": "^3.7.5"
+  },
+  "devDependencies": {
+    "@types/graphql": "^14.5.0",
+    "@types/graphql-type-json": "^0.3.2",
+    "@types/jszip": "^3.1.7",
+    "@types/keycloak-connect": "^4.5.1",
+    "@types/lodash.invert": "^4.3.6",
+    "@types/lodash.mapvalues": "^4.6.6",
+    "npm-run-all": "^4.1.5"
+  }
+}
